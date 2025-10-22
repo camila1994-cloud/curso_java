@@ -1,0 +1,142 @@
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+h4 {
+    font-style: italic;
+    font-weight: normal;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #861E4D;
+    padding: 10px 20px;
+    color: white;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.buscar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.buscar input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: 250px;
+}
+
+.login-btn {
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.login-btn:hover {
+    background-color: #2c6be0;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem;
+    gap: 2rem;
+}
+
+.flex-row {
+    display: flex;
+
+}
+
+.flex-colum {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card {
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: .4rem .2rem .4rem rgb(211, 201, 221);
+}
+
+.section-left-top {
+    gap: 2rem;
+}
+
+.section-rigth-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    height: 10rem;
+}
+
+.like-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 6px 14px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+}
+
+.like-btn .material-symbols-outlined {
+    color: #d32f2f;
+    font-size: 20px;
+}
+
+.like-btn:hover {
+    background-color: #ffe5e5;
+    border-color: #d32f2f;
+    transform: scale(1.05);
+}
+
+.like-btn:active {
+    background-color: #ffcccc;
+    transform: scale(0.97);
+}
+
+
+.add-btn {
+    background-color: #009900;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.add-btn:hover {
+    background-color: #007a00;
+}
