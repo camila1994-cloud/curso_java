@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Me gusta</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Network</h1>
+    </header>
+
+    <main class="flex-row">
+        <!-- Contenedor que va a la izquierda -->
+        <div class="flex-column left">
+            <img src="img/user-image.png" alt="Default user image" id="img-user">
+            <h2>Nombre Apellido</h2>
+        </div>
+
+        <!-- Contenedor que va a la derecha -->
+        <div class="flex-column right">
+            <h1>Your feed</h1>
+            <div class="card">
+                <div class="flex-row">
+                    <h1>Linn O.</h1>
+                    <div class="flex-row likes-count">
+                        <p class="">
+                            <span class="like">0</span>
+                            Like (s)
+                        </p>
+                        <button class="btn" onclick="likes(this)">Like</button>
+                    </div>
+                </div>
+                <div class="flex-row">
+                    <p>Acabo de configurar este nuevo bot de Discord. Cuéntame qué opinan ustedes..<a href="#">link</a></p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="flex-row">
+                    <h1>Lina K..</h1>
+                    <div class="flex-row likes likes-count">
+                        <p class="">
+                            <span class="like">0</span>
+                            Like (s)
+                        </p>
+                        <button class="btn" onclick="likes(this)">Like</button>
+                    </div>
+                </div>
+                <div class="flex-row">
+                    <p>Acabo de terminar este <a href="#">nuevo comic</a>. denle un vistazo.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="flex-row">
+                    <h1>Mateo H.</h1>
+                    <div class="flex-row likes likes-count">
+                        <p class="">
+                            <span class="like">0</span>
+                            Like (s)
+                        </p>
+                        <button class="btn" onclick="likes(this)">Like</button>
+                    </div>
+                </div>
+                <div class="flex-row">
+                    <p>No puedo dejar de escuchar este <a href="#">album</a>. ¿A quién más le gusta?</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="./scripts.js"></script>
+</body>
+
+</html>
