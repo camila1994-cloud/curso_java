@@ -1,0 +1,28 @@
+package com.camilasoto.canciones.servicios;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.camilasoto.canciones.modelos.Cancion;
+import com.camilasoto.canciones.repositorios.RepositorioCanciones;
+
+@Service
+public class ServicioCanciones {
+
+    @Autowired
+    private RepositorioCanciones repositorio;
+
+    //Todas las canciones 
+    public List<Cancion> obtenerTodasLasCanciones() {
+        return repositorio.findAll();
+    }
+
+    //obtener cansion po ID
+    public Cancion obtenerCancionPorId(Long id) {
+        Optional<Cancion> optionalCancion = repositorio.findById(id);
+        return optionalCancion.orElse(null);
+    }
+}
