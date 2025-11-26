@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #222;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table thead {
+    background: #333;
+    color: white;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table tr:hover {
+    background: #f1f1f1;
+}
+
+a {
+    color: #7c276a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*Boton volver*/
+.volver {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px 15px;
+    color: white;
+    background: #621e81;
+    border-radius: 5px;
+}
+
+.volver:hover {
+    background: #d281da;
+}
+
+.detalle-container {
+    width: 60%;
+    margin: 0 auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.detalle-container p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+strong {
+    color: #444;
+}
+
+/*Manejo de mensaje de error*/
+.error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 8px; 
+    display: block;   
+}
+
+.form-field {
+    margin-bottom: 15px; 
+}
+
+/*Boton agregar cancion*/
+button.agregar-cancion {
+    background-color: #2f16a0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+button.agregar-cancion:hover {
+    background-color: #2d3b80;
+}
+
+/*Boton actualizar cancion*/
+button.actualizar-cancion {
+    background-color: #c08a16;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.actualizar-cancion:hover {
+    background-color: #e7af5b;
+}
